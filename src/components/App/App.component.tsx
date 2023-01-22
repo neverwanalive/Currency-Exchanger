@@ -11,7 +11,6 @@ import {
   useGetListQuery,
   useGetExchangeQuery,
 } from "../../redux/queries/rapidApiQuery";
-//lol
 export const App: React.FC = () => {
   const [fromCurrency, setFromCurrency] = useState<string>("USD");
   const [toCurrency, setToCurrency] = useState<string>("RUB");
